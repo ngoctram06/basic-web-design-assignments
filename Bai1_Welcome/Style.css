@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto; /* căn giữa bảng */
+    width: 70%; /* bảng vừa phải */
+    text-align: center;
+}
+
+/* Dòng tiêu đề */
+tr.header {
+    background-color: #e0f0ff; /* nền nhạt */
+    color: blue; /* chữ xanh */
+    font-size: 25px;
+}
+
+/* Các dòng dữ liệu */
+tr.row1 {
+    background-color: #f9d5d3;
+    font-size: 14px;
+}
+tr.row1:hover {
+    background-color: #f28b82; /* hồng đậm */
+}
+
+tr.row2 {
+    background-color: #d3f9d8;
+    font-size: 14px;
+}
+tr.row2:hover {
+    background-color: #81c995; /* xanh lá đậm */
+}
+
+tr.row3 {
+    background-color: #fff3b0;
+    font-size: 14px;
+}
+tr.row3:hover {
+    background-color: #fdd663; /* vàng đậm */
+}
+
+/* Thêm viền cho bảng */
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
