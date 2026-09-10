@@ -1,0 +1,157 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* ===== Global ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdf9; /* cream */
+  color: #2c2c2c; /* dark navy/brown tone */
+  margin: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #1f2a44; /* dark navy */
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 60px 10%;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2a44;
+  padding: 15px 30px;
+}
+
+.logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #7aa693; /* sage green accent */
+}
+
+/* ===== Hero ===== */
+.hero {
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero h2 {
+  font-size: 22px;
+  color: #7aa693;
+  margin-bottom: 15px;
+}
+
+/* ===== Cards ===== */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+x
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* ===== Timeline ===== */
+.timeline {
+  display: grid;
+  gap: 20px;
+}
+
+.timeline-item {
+  background: #fff;
+  border-left: 4px solid #7aa693;
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+
+/* ===== Project Grid ===== */
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.project-cards .card {
+  text-align: left;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #1f2a44;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #7aa693;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 5%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+}
