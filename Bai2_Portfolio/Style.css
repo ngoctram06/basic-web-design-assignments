@@ -155,3 +155,6 @@ footer a:hover {
     font-size: 18px;
   }
 }
+img {
+  border-radius: 50px; /* bo góc nhẹ */
+}

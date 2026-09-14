@@ -42,3 +42,13 @@ table, th, td {
     border: 1px solid black;
     padding: 8px;
 }
+.image-container {
+    text-align: center; /* Căn giữa nội dung bên trong */
+}
+
+.portrait {
+    display: inline-block; /* Giúp ảnh căn giữa theo text-align */
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá khung */
+    height: auto;
+}
+

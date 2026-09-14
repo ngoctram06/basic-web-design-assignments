@@ -1,0 +1,142 @@
+header{
+    background-color: #f0f0f0;
+    color:#f0f0f0;
+    text-align: center;
+    padding: 15px;  
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.menu buton {
+    padding: 8px 12px;
+    border: none;
+    background-color: #eeee;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.menu button:hover {
+  background-color: #ff6600;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.item h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.item p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #ff6600;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 240px;
+  padding: 12px;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.item img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.menu button.active {
+  background-color: #ff6600;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;   /* không cho xuống dòng */
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  flex: 0 0 18%;       /* mỗi item chiếm ~18% chiều rộng */
+  max-width: 220px;    /* giới hạn chiều rộng */
+}
+
+header {
+  background: linear-gradient(90deg, #ff6600, #ff9900); /* nền gradient cam */
+  padding: 12px 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu button {
+  padding: 8px 16px;
+  border: none;
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+  border-radius: 20px; /* bo tròn nút */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu button:hover {
+  background-color: #ff6600;
+  color: white;
+}
+
+.menu button.active {
+  background-color: #333;
+  color: white;
+}
+
