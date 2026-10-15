@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(88, 83, 83);
+    padding-bottom: 6px;
+    padding: 5px;
+}
+
+.input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+
+.table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
